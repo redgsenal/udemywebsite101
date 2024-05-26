@@ -1,0 +1,117 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #069999;
+}
+
+.block-labels {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.my-form {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input {
+    font-size: 2rem;
+}
+
+#sign-btn {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    width: 100%;
+    margin-top: 10px;
+    
+    background: rgb(52, 122, 228);
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#sign-btn:hover {
+    background: rgb(10, 92, 214);
+}
+
+#login-checkbox {
+    margin: 10px auto 10px;
+    
+}
+
+.my-border {
+    border: 1px solid rgb(248, 248, 248);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+    background: #aee6e6;
+  
+}
+
+
+/* SIGN UP STYLES */
+
+.sign-up {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    background: rgb(14, 158, 98);
+    border: none;
+    color: #fff;
+    width: 95%;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.sign-up:hover {
+    background: rgb(34, 199, 130);
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 18px;
+}
+
+.form-inputs input {
+    padding: 10px;
+    font-size: 16px;
+    width: 95%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+.container {
+    height: 300px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    background-color: green;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.box.red {
+    background-color: red;
+}
+
+.box.yellow {
+    background-color: yellow;
+}
+
+.box.blue {
+    background-color: blue;
+}

@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form_label {
+  display: block;
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form_contr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #62a2b0;
+  justify-content: center;
+}
+
+.input_contr input {
+  padding: 0.2rem;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='date'] {
+  width: 95%;
+  padding: 5px 10px;
+  display: block;
+  margin: 10px 0 0 0;
+}
+
+.input_contr input[type='checkbox'] {
+  width: 20px;
+}
+
+.checkbox_contr {
+  padding: 0 10px;
+}
+
+.form_checkbox {
+  margin: 0px 10px 0px 0px;
+  color: gray;
+  padding: 20px;
+}
+
+.form_div {
+  border: 1px solid black;
+  width: 100%;
+  padding: 20px;
+  border-radius: 5%;
+  box-shadow: 15px 15px 15px rgba(23, 48, 111, 20);
+}
+
+.checkbox_contr label {
+  display: inline-block;
+}
+
+button.btn_sign_in,
+a.btn_create_accnt,
+a.btn_signup_accnt {
+  background-color: rgb(56, 147, 118);
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  border: none;
+  display: block;
+  font-size: 16px;
+  margin: 5px 0 0 0;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+.dob_cntr {
+  text-align: center;
+}
+
+#sign_btn {
+  background-color: rgb(34, 89, 111);
+  width: 100%;
+}
+
+#sign_btn:hover,
+a.btn_create_accnt:hover {
+  background-color: lightblue;
+}
+
+.input_contr {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
