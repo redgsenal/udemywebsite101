@@ -10,22 +10,23 @@
     align-items: center; */
     /* justify-content: flex-start */
     justify-content: flex-start;
+}
 
-    .box {
-        height: 80px;
-        width: 80px;
-        border: 1.5px black solid;
-        margin: 3px;
-    }
+.box {
+    height: 80px;
+    width: 80px;
+    border: 1.5px black solid;
+    margin: 3px;
+}
 
-    .box.red {
-        background-color: red;
-    }
+.box.red {
+    background-color: red;
+}
 
-    .box.yellow {
-        background-color: yellow;
-    }
+.box.yellow {
+    background-color: yellow;
+}
 
-    .box.blue {
-        background-color: blue;
-    }
+.box.blue {
+    background-color: blue;
+}
