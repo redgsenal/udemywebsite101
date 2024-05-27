@@ -1,0 +1,68 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+} */
+
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.item {
+    min-height: 100px;
+    min-width: 100%;
+}
+
+.item1 {
+    background-color: yellow;
+}
+
+.item2 {
+    background-color: green;
+}
+
+.item3 {
+    background-color: blue;
+}
+
+.item4 {
+    background-color: tan;
+}
+
+.item5 {
+    background-color: pink;
+}
+
+.item6 {
+    background-color: khaki;
+}
+
+.item7 {
+    background-color: rgb(86, 83, 56);
+}
+
+.item8 {
+    background-color: rgb(61, 106, 106);
+}
+
+.item9 {
+    background-color: rgb(51, 110, 71);
+}
+
+.item10 {
+    background-color: rgb(12, 163, 42);
+}
+
+.item11 {
+    background-color: rgb(159, 87, 50);
+}
+
+.item12 {
+    background-color: rgb(152, 34, 46);
+}
