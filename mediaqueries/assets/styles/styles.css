@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: aqua;
+    height: 450px;
+    width: auto;
+}
+
+.box {
+    background-color: #f0f0f0;
+    margin: 10px;
+    height: 15%;
+    width: 25%;
+    display: inline-block;
+}
+
+/* large screens */
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: rgb(44, 130, 119);
+    }
+
+    .box {
+        width: 45%;
+    }
+}
+
+/* mediums screens */
+@media screen and (max-width: 800px) {
+    body {
+        background-color: rgb(145, 102, 45);
+    }
+
+    .box {
+        width: 35%;
+    }
+}
+
+/* small screens */
+@media screen and (max-width: 500px) {
+    body {
+        background-color: blue
+    }
+
+    .box {
+        width: 100%;
+        display: block;
+    }
+
+}
