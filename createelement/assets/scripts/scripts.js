@@ -4,9 +4,11 @@ let btn = document.querySelector("#btn");
 
 btn.addEventListener('click', function () {
     const newItemText = txtbox.value;
-    const newItemElement = document.createElement("li");
-    const datalist = document.querySelector("#datalist");
-    newItemElement.textContent = newItemText;
-    datalist.appendChild(newItemElement);
+    if (newItemText.trim().length > 0) {
+        const newItemElement = document.createElement("li");
+        const datalist = document.querySelector("#datalist");
+        newItemElement.textContent = newItemText;
+        datalist.appendChild(newItemElement);
+    }
     txtbox.value = "";
 });

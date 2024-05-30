@@ -22,3 +22,20 @@ body {
     background-color: rgb(171, 170, 183);
     padding: 20px 10px;
 }
+
+table {
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th,
+tr,
+td {
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
