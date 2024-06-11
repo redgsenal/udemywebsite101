@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(105, 105, 177);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+textarea {
+    min-width: 500px;
+    min-height: 300px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#txtResults {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding: 10px 20px;
+    width: 80%;
+    text-align: center;
+    margin: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+button {
+    font-size: 24px;
+    cursor: pointer;
+    width: 300px;
+    padding: 10px 20px;
+}
+
+#counter {
+    font-size: 24px;
+}
+
+#plus {
+    color: green;
+}
+
+#minus {
+    color: red;
+}
+
+#reset {
+    color: blue;
+}
