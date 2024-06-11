@@ -22,6 +22,10 @@ textarea {
     font-size: 20px;
 }
 
+ul {
+    text-align: left;
+}
+
 .wrapper {
     width: 100%;
 }
