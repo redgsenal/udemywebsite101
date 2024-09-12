@@ -27,6 +27,15 @@ function generateRow(index, data) {
     return trow
 }
 
+function updateTable() {
+    tbleBody.innerHTML = "";
+    myData.forEach((item, idx) => {
+        console.log(idx, item);
+        tbleBody.appendChild(generateRow(idx + 1, item));
+    });
+    tble.appendChild(tbleBody);
+}
+
 const myData = [{
     fname: "John",
     lname: "Doe",
@@ -69,8 +78,4 @@ console.log(myData[2].age()); */
 
 const tble = document.querySelector("#tabledata");
 const tbleBody = document.createElement("tbody");
-myData.forEach((item, idx) => {
-    console.log(idx, item);
-    tbleBody.appendChild(generateRow(idx + 1, item));
-});
-tble.appendChild(tbleBody);
+updateTable();
