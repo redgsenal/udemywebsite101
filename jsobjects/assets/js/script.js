@@ -9,15 +9,16 @@ function fullname(fname, lname) {
     return fname + " " + lname;
 }
 
-
 function generateColumn(data) {
     const col = document.createElement("td");
     col.innerText = data;
     return col;
 }
 
-function generateRow(data) {
+function generateRow(index, data) {
     const trow = document.createElement("tr");
+    // alternative way of putting HTML to elements
+    trow.innerHTML = `<td>${index}</td>`;
     trow.appendChild(generateColumn(data.fname));
     trow.appendChild(generateColumn(data.lname));
     trow.appendChild(generateColumn(fullname(data.fname, data.lname)));
@@ -70,6 +71,6 @@ const tble = document.querySelector("#tabledata");
 const tbleBody = document.createElement("tbody");
 myData.forEach((item, idx) => {
     console.log(idx, item);
-    tbleBody.appendChild(generateRow(item));
+    tbleBody.appendChild(generateRow(idx + 1, item));
 });
 tble.appendChild(tbleBody);
